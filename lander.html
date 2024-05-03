@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FileGenius</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Background color of the page */
+    color: #fff; /* Text color */
+    overflow-x: hidden;
+  }
+
+  #navbar {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #navbar h1 {
+    margin: 0;
+    color: #fff; /* Text color of the navbar */
+  }
+
+  #navbar .highlight {
+    font-weight: bold;
+    color: #ff6e00;
+  }
+
+  .red {
+    color: #ff0000; /* Red color for "Organise" and "Files" */
+  }
+
+  #signup-signin {
+    padding: 20px;
+  }
+
+  .h1{
+    font-size: 70px;
+  }
+
+  #signup-signin a {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .file{
+    margin-left: 30px;
+  }
+  .button{
+    height: 100px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 160px;
+    background-color: #ff0000;
+    font-size: 25px;
+    color: white;
+  }
+  .oval {
+    position: absolute;
+    top: 100px;
+    margin-right: -90px;
+    height: 120vh; /* 100% of the viewport height */
+    width: 100vh; /* 50% of the viewport height */
+    background-color: red;
+    border-radius: 50%;
+    transform: rotate(40deg);
+  /* Sets the bottom right corner to half the viewport height, creating a semicircle */
+    right: 0; /* Positions the semicircle to the right */
+    bottom: 0;
+    overflow: hidden; /* Hides any overflow content */
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+  <div>
+    <h1>File<span class="highlight">G</span>enius</h1>
+  </div>
+  <div id="signup-signin">
+    <a href="#">Sign Up</a>
+    <a href="#">Sign In</a>
+  </div>
+</div>
+<div class="file">
+<h1 class="h1"><span>EASY WAY TO </span><span class="red">ORGANIZE</span></h1>
+<br>
+<h1 class="h1"><span>ALL YOUR </span><span class="red">FILES</span></h1>
+</div>
+<br><br><br><br><br><br><br>
+<button class="button">GET STARTED</button>
+<div class = "oval"></div>
+</body>
+</html>
+

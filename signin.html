@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-REERUmvmoN5z1Jr1jLIdmaw5SvhI9uhuyMrzv+pDrsQ9B9PB0kri8oWRc6eV7ke4MwR82P5Anp12VFD3+uVFlA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+    .left-partition {
+        flex: 1;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-partition {
+        flex: 1;
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .signin-heading {
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: black;
+    }
+    .signin-form {
+        text-align: center;
+    }
+    .form-input {
+        margin-bottom: 10px;
+        width: 250px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .signup-button, .signin-button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .signup-button {
+        background-color: red;
+        color: white;
+    }
+    .signin-button {
+        background-color: black;
+        color: white;
+    }
+    h1 {
+        color: red;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-partition">
+            <h1>HELLO FRIEND !!</h1>
+            <h3>Enter your details and start your journey with us...</h3>
+            <a href="signup.html"><button class="signup-button">Sign Up</button></a>
+        </div>
+        <div class="right-partition">
+            <h1 class="signin-heading">Sign In</h1>
+            <form class="signin-form">
+                <input type="email" class="form-input" placeholder="Email">
+                <br>
+                <input type="password" class="form-input" placeholder="Password">
+                <br>
+                <button type="submit" class="signin-button">Sign In</button>
+                <br>
+                <h4>OR</h4>
+                <h3>Sign In with your...</h3>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
